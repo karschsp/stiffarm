@@ -19,10 +19,10 @@
 			width: 100%;
 			height: 100%;
 			background-color:		_palette(wrapper-bg);
-			background-image:		url('../../images/overlay.png'),	linear-gradient(0deg, rgba(0,0,0,0.1), rgba(0,0,0,0.1)),	url('../../images/bg.jpg');
-			background-size:		auto,								auto,														100% auto;
-			background-position:	center,								center,														top center;
-			background-repeat:		repeat,								no-repeat,													no-repeat;
+			background-image:		url('../../images/sa-cover-ruff.jpg'),	linear-gradient(0deg, rgba(0,0,0,0.1), rgba(0,0,0,0.1)),	url('../../images/sa-cover-ruff.jpg');
+			background-size:		100%;
+			background-position:	top center;
+			background-repeat:		no-repeat;
 			background-attachment:	scroll,								scroll,														scroll;
 			z-index: -1;
 
