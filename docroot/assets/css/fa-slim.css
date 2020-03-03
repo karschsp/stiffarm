@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'fontawesome';
+  src:  url('/assets/fonts/fontawesome.eot?cme3nu');
+  src:  url('/assets/fonts/fontawesome.eot?cme3nu#iefix') format('embedded-opentype'),
+    url('/assets/fonts/fontawesome.ttf?cme3nu') format('truetype'),
+    url('/assets/fonts/fontawesome.woff?cme3nu') format('woff'),
+    url('/assets/fonts/fontawesome.svg?cme3nu#fontawesome') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="fa-"], [class*=" fa-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'fontawesome' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-twitter-square:before {
+  content: "\f081";
+}
+.fa-facebook-square:before {
+  content: "\f082";
+}
+.fa-instagram:before {
+  content: "\f16d";
+}
+.fa-spotify:before {
+  content: "\f1bc";
+}
+.fa-bandcamp:before {
+  content: "\f2d5";
+}
+.fa-arrow-down:before {
+  content: "\f063";
+}
+.fa-arrow-circle-down:before {
+  content: "\f0ab";
+}
+.fa-long-arrow-down:before {
+  content: "\f175";
+}
