@@ -61,4 +61,7 @@
 				background-size:	auto,								auto,														auto 175%;
 			}
 		}
+		@include breakpoint('<=medium') {
+			background-image:		url('../../images/sa-cover-bg-small.jpg'),	linear-gradient(0deg, rgba(0,0,0,0.1), rgba(0,0,0,0.1)),	url('../../images/sa-cover-bg-small.jpg');
+		}
 	}
