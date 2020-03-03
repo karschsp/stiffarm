@@ -2028,6 +2028,9 @@ table.alt tbody tr td {
   @media screen and (orientation: portrait) {
     #wrapper > .bg {
       background-size: auto,								auto,														auto 175%; } }
+  @media screen and (max-width: 980px) {
+    #wrapper {
+      background-image: url("../../images/sa-cover-bg-small.jpg"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/sa-cover-bg-small.jpg"); } }
 
 /* Intro */
 #intro {
