@@ -1,5 +1,5 @@
-# One month for image files
-<filesMatch ".(jpg|jpeg|png|gif|ico)$">
+# One month for image and font files
+<filesMatch ".(jpg|jpeg|png|gif|ico|woff|woff2|ttf|eot|svg)$">
 Header set Cache-Control "max-age=2628000, public"
 </filesMatch>
 
