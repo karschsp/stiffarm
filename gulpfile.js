@@ -4,7 +4,7 @@ var csso = require('gulp-csso');
 var concat = require('gulp-concat');
 var rename = require('gulp-rename');
 var uglify = require('gulp-uglify');
-
+var order = require('gulp-order');
 
 gulp.task(
   'styles',
@@ -20,6 +20,15 @@ gulp.task(
   'scripts',
   function() {
     return gulp.src('docroot/assets/js/**/*.js')
+      .pipe(order([
+        'docroot/assets/js/jquery.min.js',
+        'docroot/assets/js/jquery.scrollex.min.js',
+        'docroot/assets/js/jquery.scrolly.min.js',
+        'docroot/assets/js/browser.min.js',
+        'docroot/assets/js/breakpoints.min',
+        'docroot/assets/js/util.js',
+        'docroot/assets/js/main.js'
+      ]))
       .pipe(concat('scripts.js'))
       .pipe(gulp.dest('docroot/js'))
       .pipe(rename('scripts.min.js'))

@@ -47,6 +47,10 @@
 			border-bottom-color: transparent;
 		}
 	}
+	a.anchor {
+	  border-bottom: none;
+	  border-top: none !important;
+	}
 
 	strong, b {
 		font-weight: _font(weight-bold);
