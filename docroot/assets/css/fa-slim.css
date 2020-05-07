@@ -49,3 +49,16 @@
 .fa-long-arrow-down:before {
   content: "\f175";
 }
+.fa-reverbnation:before {
+  content: "\e901";
+  /* color: #e43526; */
+}
+.fa-youtube-square:before {
+  content: "\f166";
+}
+.fa-youtube:before {
+  content: "\f167";
+}
+.fa-youtube-play:before {
+  content: "\f16a";
+}
