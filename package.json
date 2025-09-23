@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/karschsp/stiffarm#readme",
   "devDependencies": {
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.1",
     "gulp-concat": "^2.6.1",
     "gulp-csso": "^4.0.1",
     "gulp-order": "^1.2.0",
